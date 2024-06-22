@@ -1,0 +1,16 @@
+<html>
+    <body style="text-align: center;">
+        <p>T: {{ t }}</p>
+        <table align="center", border="1">
+            <tr>
+            {% for i in range %}
+                <td>
+                    <h4>{{ passwords[i] }}</h4>
+                </td>
+                {% if (i+1) % 5 == 0 %}
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </table>
+    </body>
+</html>

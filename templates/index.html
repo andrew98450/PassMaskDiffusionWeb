@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            PassMaskLDiffusion Demo
+        </title>
+        {{ turbo() }}
+    </head>
+
+    <body style="text-align: center;">
+        <h1>PassMaskLDiffusion Demo</h1>
+        <form method="post">
+            <p>N: <input type="number" name="n" value="5", required></p> 
+            <p>Condition Mask: <input type="text" name="cond_text" required></p> 
+            <input type="submit" value="Generate">
+        </form>
+        <span id="diffusion_process"></span>
+    </body>
+</html>

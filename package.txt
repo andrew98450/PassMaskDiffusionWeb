@@ -1,0 +1,4 @@
+Flask
+Turbo-Flask
+onnxruntime==1.16.1
+numpy==1.25.1
